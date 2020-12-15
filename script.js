@@ -170,7 +170,7 @@ let partyGuests = [
   
   function ageChecker(){
     let legalGuests = []
-    for (let guest = 0; guest <= partyGuests.length; guest++) {
+    for (let guest = 0; guest < partyGuests.length; guest++) {
         if (partyGuests[guest].age >= 21) {
             legalGuests.push(partyGuests[guest].name)
         }
